@@ -61,3 +61,16 @@ Add only what you actually use (most implicit intents don’t need runtime permi
 
 <!-- If you show current location in maps, you may add location permissions (optional) -->
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+## 🏗 Architecture
+
+```mermaid
+flowchart LR
+    U[User] --> UI[App UI buttons]
+    UI --> IB[Intent builder (Kotlin)]
+    IB --> CH{Can any app handle it?}
+    CH -->|yes| OS[Android OS resolver]
+    OS --> TA[Target app (browser, dialer, maps, email, share)]
+    CH -->|no| EH[Show message: no compatible app]
+```
