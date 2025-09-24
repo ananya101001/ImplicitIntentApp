@@ -1,4 +1,4 @@
-# ImplicitIntentApp 
+# Implicit Intent App 
 
 An Android app (Kotlin) showcasing **implicit intents**—interacting with other apps using Android’s built-in intent system (e.g., open a web page, compose an email, dial a number, open maps, share text).  
 
