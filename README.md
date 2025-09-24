@@ -44,7 +44,7 @@ Add only what you actually use (most implicit intents don’t need runtime permi
    git clone https://github.com/ananya101001/ImplicitIntentApp.git
    cd ImplicitIntentApp
    ```
-2. ## 🛠 Open in Android Studio
+2. ** Open in Android Studio
 
 1. Launch **Android Studio**  
 2. Open the project folder  
