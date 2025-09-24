@@ -55,7 +55,7 @@ Add only what you actually use (most implicit intents don’t need runtime permi
 ## Run the App
 
 1. Connect a device or start an emulator  
-2. Press **Run ▶️** in Android Studio  
+2. Press **Run** in Android Studio  
 3. Test each button to launch the different implicit intents  
 
 
@@ -63,9 +63,8 @@ Add only what you actually use (most implicit intents don’t need runtime permi
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 
-## 🏗 Architecture
+##  Architecture
 
-## 🏗 Architecture
 
 ```mermaid
 flowchart LR
