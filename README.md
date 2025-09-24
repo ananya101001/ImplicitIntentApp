@@ -65,12 +65,14 @@ Add only what you actually use (most implicit intents don’t need runtime permi
 
 ## 🏗 Architecture
 
+## 🏗 Architecture
+
 ```mermaid
 flowchart LR
     U[User] --> UI[App UI buttons]
-    UI --> IB[Intent builder (Kotlin)]
-    IB --> CH{Can any app handle it?}
+    UI --> IB[Intent builder - Kotlin]
+    IB --> CH{Any app can handle it?}
     CH -->|yes| OS[Android OS resolver]
-    OS --> TA[Target app (browser, dialer, maps, email, share)]
+    OS --> TA[Target app - browser/dialer/maps/email/share]
     CH -->|no| EH[Show message: no compatible app]
 ```
