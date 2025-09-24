@@ -43,7 +43,7 @@ Add only what you actually use (most implicit intents don’t need runtime permi
    ```bash
    git clone https://github.com/ananya101001/ImplicitIntentApp.git
    cd ImplicitIntentApp
-```
+   ```
 2. ## 🛠 Open in Android Studio
 
 1. Launch **Android Studio**  
